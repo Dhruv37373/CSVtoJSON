@@ -1,0 +1,5 @@
+name.firstName, name.lastName, age, address.line1, address.line2, address.city, address.state, gender
+John, Doe,30, 123 Main St, Apt 4, Anytown, CA, male
+Alice, Smith,25, 456 Elm St, Apt 2, Another City, NY, female
+Rohit ,Prasad,52,mini nagar,dahisar east,mumbai,Maharashtra,male
+Dhruv,Umraliya,72,Devipada,Borivali East,mumbai,Maharashtra,male
