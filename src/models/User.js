@@ -1,10 +1,9 @@
 const { DataTypes } = require('sequelize');
 const sequelize = require('./index'); 
 
-
 const User = sequelize.define('User', {
   name: {
-    type: DataTypes.STRING,
+    type: DataTypes.JSONB,
     allowNull: false,
   },
   age: {
@@ -14,16 +13,16 @@ const User = sequelize.define('User', {
   address: {
     type: DataTypes.JSONB,
   },
-  additional_info: {
-    type: DataTypes.JSONB,
+  gender: {
+    type: DataTypes.STRING,
   },
-},{
+}, {
   tableName: 'Users',
   timestamps: false
 });
 
-module.exports = User;
 
+module.exports = User;
 
 
 
